@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Servo Control</title>
+</head>
+<body>
+  <h1>Servo Motor Control</h1>
+  <label for="servoSlider">Angle:</label>
+  <input type="range" id="servoSlider" min="0" max="180" value="90" oninput="updateServo(this.value)">
+  <span id="servoValue">90</span>°
+
+  <script>
+    function updateServo(value) {
+      document.getElementById("servoValue").innerText = value;
+
+      // Send the angle value to the ESP32
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "/setAngle?value=" + value, true);
+      xhr.send();
+    }
+  </script>
+</body>
+</html>
