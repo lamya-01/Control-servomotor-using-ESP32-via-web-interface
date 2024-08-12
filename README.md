@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/3c21e133-79cf-4835-bcd0-e4d45bd48732
 # Control-servomotor-using-ESP32-via-web-interface
 
 ### Overview
@@ -78,23 +76,3 @@ This project demonstrates how to control a servo motor using an ESP32 microcontr
  ### Example
 
 https://github.com/user-attachments/assets/3dc935c1-1540-4362-82f9-4df1b8ed70cb
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
- 
- 
-
-
-https://github.com/user-attachments/assets/7749b112-1c29-4e5d-bedb-ff77c9bca19b
-
